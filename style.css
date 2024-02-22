@@ -1,0 +1,74 @@
+:root{
+    --cor-texto: black;
+}
+
+.barraMenu {
+    display: flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    color: blue;
+}
+
+.barraMenu img{
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+}
+
+.menu li {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.menu li a {
+    padding: 10px;
+    border: 2px solid black;
+    display: block;
+    color: var(--cor-texto);
+    text-decoration:none;
+
+}
+
+
+.divs {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.div1,
+.div2,
+.div3 {
+    display: flex;
+
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.divisao {
+    background-color: black;
+    height: 10px;
+   margin:1px;
+
+}
+/* footer{
+    background-color: rgb(190, 48, 48);
+    height: 200px;
+    width: 100%;
+} */
+.roda{
+    display: flex;
+    justify-content: end;
+    border: 1px solid black;
+
+
+}
+
+.imge{
+    width: 300px;
+}
